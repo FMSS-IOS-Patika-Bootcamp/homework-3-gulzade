@@ -1,4 +1,8 @@
 # HomWork-3
+
+<img alt= "welcome" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework-3-gulzade/blob/main/images/pageOne.png" width="250"/><img alt="DetailPage" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework-3-gulzade/blob/main/images/pageSecond.png" width="250"/>
+
+Not: Projeye Swift Packet Manager ile Kingfisher kütüphanesi eklenmiştir. Proje indirildiğinde fetch etmeyi unutmayınız. Aksi takdirdi çalışırken hata verir.
 3. Ödevimiz
 
 
