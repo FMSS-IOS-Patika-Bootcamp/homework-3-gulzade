@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC31A94A28DFABC7005C1644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A94928DFABC7005C1644 /* AppDelegate.swift */; };
-		FC31A94C28DFABC7005C1644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A94B28DFABC7005C1644 /* SceneDelegate.swift */; };
-		FC31A94E28DFABC7005C1644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A94D28DFABC7005C1644 /* ViewController.swift */; };
+		FC31A94E28DFABC7005C1644 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A94D28DFABC7005C1644 /* PostListViewController.swift */; };
 		FC31A95128DFABC7005C1644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31A94F28DFABC7005C1644 /* Main.storyboard */; };
 		FC31A95428DFABC7005C1644 /* ToDoMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC31A95228DFABC7005C1644 /* ToDoMVVM.xcdatamodeld */; };
 		FC31A95628DFABC8005C1644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31A95528DFABC8005C1644 /* Assets.xcassets */; };
 		FC31A95928DFABC8005C1644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31A95728DFABC8005C1644 /* LaunchScreen.storyboard */; };
+		FC31A96428DFC490005C1644 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A96328DFC490005C1644 /* PostListViewModel.swift */; };
+		FC31A96628DFC5F0005C1644 /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A96528DFC5F0005C1644 /* PostListModel.swift */; };
+		FC31A96828DFCC60005C1644 /* PostListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A96728DFCC60005C1644 /* PostListEntity.swift */; };
+		FC31A96B28DFD040005C1644 /* PostListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A96928DFD040005C1644 /* PostListTableViewCell.swift */; };
+		FC31A96C28DFD040005C1644 /* PostListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC31A96A28DFD040005C1644 /* PostListTableViewCell.xib */; };
+		FC31A97428DFE79B005C1644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A97228DFE79B005C1644 /* AppDelegate.swift */; };
+		FC31A97528DFE79B005C1644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A97328DFE79B005C1644 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC31A94628DFABC7005C1644 /* ToDoMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC31A94928DFABC7005C1644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC31A94B28DFABC7005C1644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC31A94D28DFABC7005C1644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC31A94D28DFABC7005C1644 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		FC31A95028DFABC7005C1644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC31A95328DFABC7005C1644 /* ToDoMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoMVVM.xcdatamodel; sourceTree = "<group>"; };
 		FC31A95528DFABC8005C1644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC31A95828DFABC8005C1644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC31A95A28DFABC8005C1644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31A96328DFC490005C1644 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		FC31A96528DFC5F0005C1644 /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
+		FC31A96728DFCC60005C1644 /* PostListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListEntity.swift; sourceTree = "<group>"; };
+		FC31A96928DFD040005C1644 /* PostListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewCell.swift; sourceTree = "<group>"; };
+		FC31A96A28DFD040005C1644 /* PostListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostListTableViewCell.xib; sourceTree = "<group>"; };
+		FC31A97228DFE79B005C1644 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC31A97328DFE79B005C1644 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,40 +68,61 @@
 		FC31A94828DFABC7005C1644 /* ToDoMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				FC31A96228DFABEF005C1644 /* Sopporting Files */,
-				FC31A96128DFABDD005C1644 /* Entity */,
-				FC31A96028DFABD0005C1644 /* Storyboards */,
-				FC31A94D28DFABC7005C1644 /* ViewController.swift */,
-				FC31A95528DFABC8005C1644 /* Assets.xcassets */,
+				FC31A96D28DFE604005C1644 /* PostListModule */,
+				FC31A97228DFE79B005C1644 /* AppDelegate.swift */,
+				FC31A97328DFE79B005C1644 /* SceneDelegate.swift */,
 				FC31A95A28DFABC8005C1644 /* Info.plist */,
 				FC31A95228DFABC7005C1644 /* ToDoMVVM.xcdatamodeld */,
 			);
 			path = ToDoMVVM;
 			sourceTree = "<group>";
 		};
-		FC31A96028DFABD0005C1644 /* Storyboards */ = {
+		FC31A96D28DFE604005C1644 /* PostListModule */ = {
 			isa = PBXGroup;
 			children = (
-				FC31A95728DFABC8005C1644 /* LaunchScreen.storyboard */,
+				FC31A97128DFE6EE005C1644 /* Resources */,
+				FC31A96E28DFE632005C1644 /* Model */,
+				FC31A96F28DFE64B005C1644 /* VM */,
+				FC31A97028DFE683005C1644 /* View */,
+			);
+			path = PostListModule;
+			sourceTree = "<group>";
+		};
+		FC31A96E28DFE632005C1644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC31A96728DFCC60005C1644 /* PostListEntity.swift */,
+				FC31A96528DFC5F0005C1644 /* PostListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC31A96F28DFE64B005C1644 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				FC31A96328DFC490005C1644 /* PostListViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		FC31A97028DFE683005C1644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC31A94D28DFABC7005C1644 /* PostListViewController.swift */,
+				FC31A96928DFD040005C1644 /* PostListTableViewCell.swift */,
+				FC31A96A28DFD040005C1644 /* PostListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC31A97128DFE6EE005C1644 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				FC31A94F28DFABC7005C1644 /* Main.storyboard */,
+				FC31A95728DFABC8005C1644 /* LaunchScreen.storyboard */,
+				FC31A95528DFABC8005C1644 /* Assets.xcassets */,
 			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		FC31A96128DFABDD005C1644 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		FC31A96228DFABEF005C1644 /* Sopporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC31A94B28DFABC7005C1644 /* SceneDelegate.swift */,
-				FC31A94928DFABC7005C1644 /* AppDelegate.swift */,
-			);
-			path = "Sopporting Files";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +186,7 @@
 				FC31A95928DFABC8005C1644 /* LaunchScreen.storyboard in Resources */,
 				FC31A95628DFABC8005C1644 /* Assets.xcassets in Resources */,
 				FC31A95128DFABC7005C1644 /* Main.storyboard in Resources */,
+				FC31A96C28DFD040005C1644 /* PostListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC31A94E28DFABC7005C1644 /* ViewController.swift in Sources */,
+				FC31A96428DFC490005C1644 /* PostListViewModel.swift in Sources */,
+				FC31A94E28DFABC7005C1644 /* PostListViewController.swift in Sources */,
 				FC31A95428DFABC7005C1644 /* ToDoMVVM.xcdatamodeld in Sources */,
-				FC31A94A28DFABC7005C1644 /* AppDelegate.swift in Sources */,
-				FC31A94C28DFABC7005C1644 /* SceneDelegate.swift in Sources */,
+				FC31A96B28DFD040005C1644 /* PostListTableViewCell.swift in Sources */,
+				FC31A97428DFE79B005C1644 /* AppDelegate.swift in Sources */,
+				FC31A96828DFCC60005C1644 /* PostListEntity.swift in Sources */,
+				FC31A96628DFC5F0005C1644 /* PostListModel.swift in Sources */,
+				FC31A97528DFE79B005C1644 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
