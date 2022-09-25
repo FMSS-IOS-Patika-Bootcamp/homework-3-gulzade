@@ -26,8 +26,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VE-Et-CNc">
-                                <rect key="frame" x="8" y="36.5" width="320" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VE-Et-CNc">
+                                <rect key="frame" x="8" y="44" width="320" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,6 +40,7 @@
                             <constraint firstAttribute="trailing" secondItem="5G1-Nd-at6" secondAttribute="trailing" constant="8" id="Lku-xW-wzQ"/>
                             <constraint firstItem="5G1-Nd-at6" firstAttribute="top" secondItem="kAR-Fx-aUv" secondAttribute="top" constant="8" id="PsK-gr-SIQ"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="khd-NT-Fk1"/>
+                            <constraint firstItem="3VE-Et-CNc" firstAttribute="top" secondItem="5G1-Nd-at6" secondAttribute="bottom" constant="8" id="p4P-2M-cLv"/>
                             <constraint firstItem="3VE-Et-CNc" firstAttribute="leading" secondItem="kAR-Fx-aUv" secondAttribute="leading" constant="8" id="qfn-Ib-goD"/>
                             <constraint firstAttribute="trailing" secondItem="3VE-Et-CNc" secondAttribute="trailing" constant="8" id="uXg-kg-2ed"/>
                         </constraints>
