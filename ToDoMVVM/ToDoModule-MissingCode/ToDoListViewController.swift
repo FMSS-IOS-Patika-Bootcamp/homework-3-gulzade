@@ -50,7 +50,8 @@ extension ToDoListViewController: ToDoListViewModelViewProtocol {
 extension ToDoListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModelToDo.didClickItem(at: indexPath.row)
+       // viewModelToDo.didClickItem(at: indexPath.row)
+        return
     }
     
 }

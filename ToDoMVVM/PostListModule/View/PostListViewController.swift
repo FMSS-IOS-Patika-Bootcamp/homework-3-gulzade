@@ -46,12 +46,6 @@ extension PostListViewController: PostListViewModelViewProtocol {
 
         }
     }
-    func showEmptyView(){
-        
-    }
-    func hideEmptyView(){
-        
-    }
    
 }
 
@@ -76,7 +70,9 @@ extension PostListViewController: UITableViewDataSource {
         cell.postDescLabel.text = items[indexPath.row].desc
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+          return 160
+    }
     
     
 }

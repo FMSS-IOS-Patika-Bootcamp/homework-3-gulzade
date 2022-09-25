@@ -23,10 +23,11 @@ class TodoListViewModel {
     
    
     init() {
-        modelToDo.delegate = self // modeldan haber almaya başlamak için
+       // modelToDo.delegate = self // modeldan haber almaya başlamak için
     }
     func didViewLoad(){
   
+}
 }
 private extension TodoListViewModel {
     

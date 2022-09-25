@@ -12,8 +12,7 @@ import Foundation
 
 protocol PostListViewModelViewProtocol: AnyObject{ //Viewın protokolü
     func didCellItemFetch(_ items: [PostCellViewModel]) //view'a haber vermek için
-    func showEmptyView()
-    func hideEmptyView()
+
     
 }
 class PostListViewModel {
@@ -54,9 +53,9 @@ extension PostListViewModel: PostListModelProtocol {
             let posts = model.posts
             let cellModels = makeViewBasedModel(posts)
             viewDelegate?.didCellItemFetch(cellModels)
-            viewDelegate?.hideEmptyView()
+            
         } else{
-            viewDelegate?.showEmptyView()
+            
         }
        
        
